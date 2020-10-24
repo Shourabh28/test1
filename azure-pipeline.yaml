@@ -14,7 +14,7 @@ variables:
   name: hello-world
 
 stages:
-- stage: 'Checking the Files in Sources Directory'
+- stage: 'GetFiles'
   jobs:
   - job: A
     steps:
