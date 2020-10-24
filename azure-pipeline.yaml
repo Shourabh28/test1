@@ -6,7 +6,7 @@ resources:
   - repository: test2   # The name used to reference this repository in the checkout step
     type: github
     name: Shourabh28/test2
-    #endpoint: 
+    endpoint: Shourabh28
 
 pool: 'Testing'
 
