@@ -8,7 +8,7 @@ resources:
     name: Shourabh28/test2
     endpoint: Shourabh28
 
-pool: 'Testing'
+#pool: 'Testing'
 
 variables:
   name: hello-world
