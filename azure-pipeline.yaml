@@ -16,6 +16,7 @@ variables:
 stages:
 - stage: 'Checking the Files in Sources Directory'
   jobs:
+  - job: A
     steps:
     - checkout: self
     - checkout: test2
