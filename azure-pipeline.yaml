@@ -1,0 +1,24 @@
+trigger:
+- master
+
+resources:
+  repositories:
+  - repository: test2   # The name used to reference this repository in the checkout step
+    type: github
+    name: Shourabh28/test2
+    #endpoint: 
+
+pool: 'Testing'
+
+variables:
+  name: hello-world
+
+stages:
+- stage: 'Checking the Files in Sources Directory'
+  jobs:
+  - steps:
+    - checkout: self
+    - checkout: test2
+    - script: |
+        echo $(Build.SourcesDirectory)
+        ls $(Build.SourcesDirectory) *
