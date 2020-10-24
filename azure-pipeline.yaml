@@ -7,6 +7,7 @@ resources:
     type: github
     name: Shourabh28/test2
     endpoint: Shourabh28
+    #ref: string  # ref name to use; defaults to 'refs/heads/master'
 
 #pool: 'Testing'
 
